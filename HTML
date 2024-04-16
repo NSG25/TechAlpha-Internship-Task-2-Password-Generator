@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator | JavaScript Project</title>
+    <link rel="stylesheet" href="./Random_pass.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <span id="pass_box">Password....</span>
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" id="total_char" min="1" max="20" value="10">
+                </div>
+            </div>
+            <!-- ----------row1 ----------->
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">Contains UpperCase</div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" id="upper-case" checked>
+                </div>
+            </div>
+            <!-- --------row2-------------- -->
+            <div class="row">
+                <label for="lower-case">
+                    <div class="left">Contains LowerCase</div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" id="lower-case"  >
+                </div>
+            </div>
+            <!-- --------row3-------------- -->
+            <div class="row">
+                <label for="numbers">
+                    <div class="left">Contains Numbers</div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" id="numbers" >
+                </div>
+            </div>
+            <!-- --------row4-------------- -->
+            <div class="row">
+                <label for="symbols">
+                    <div class="left">Contains Symbols</div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" id="symbols" >
+                </div>
+            </div>
+            <!-- --------row5-------------- -->
+            <div class="row">
+                <button id="btn">⚡ Generate Password</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./Random_pas.js"></script>
+</html>
